@@ -1,0 +1,186 @@
+.sl-product-row .product-container{
+	/*display: inline-block;*/
+	background: #55ACEE;
+	position: relative;
+}
+.sl-product-row .disabled, .best-price.disabled{
+	display: none;
+}
+.sl-product-row .product-container.ebay{
+	vertical-align: top;
+}
+.sl-product-row .product-container > .product-info > .product-img{
+	padding-bottom: 15px;
+	background: #fff;
+	padding-top: 15px;
+}
+.sl-product-row .product-container > .product-info > .product-img > img{
+	height: 142px;
+	max-width: 100%;
+}
+.sl-product-row .product-container > .product-info{
+	text-align: center;
+}
+.sl-product-row .product-container > .product-info > .product-link a {
+    display: block;
+	font-weight: bold;
+    padding: 7px 15px;
+    background: #55ACEE;
+    color: #fff;
+}
+.sl-product-row .product-info h4{
+	color: #000;
+	margin: 0;
+	padding: 10px 0;
+}
+.sl-product-row .product-price{
+	/*width: 19%;*/
+	margin: 15px auto;
+	border-radius: 125px;
+	background: #fff;
+	font-size: 20px;
+	padding: 36px 13px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.38) inset;
+	color:#55ACEE;
+	display: inline-block;
+}
+.sl-product-row .product-name{
+	background: #282828;
+	color: #fff;
+	padding: 10px 0px;
+	height: 18px;
+	overflow: hidden;
+}
+.sl-product-row .best-price{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sl-product-row .best-price img{
+	border: none;
+	box-shadow: none;
+}
+.sl-product-row .product-link{
+	color: #000;
+	padding: 5px 0;
+	font-weight: bold;
+}
+/* Grow */
+.sl-product-row .hvr-grow {
+    display: inline-block;
+    vertical-align: top;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    width: 49%;
+}
+
+.sl-product-row .hvr-grow:hover,
+.sl-product-row .hvr-grow:focus,
+.sl-product-row .hvr-grow:active {
+    transform: scale(1.1);
+    text-decoration: none!important;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	z-index: 1;
+}
+.sl-product-row #powered-by{
+	margin-top: 5px;
+	margin-right: 11px;
+	text-align: right;
+}
+.sl-product-row #powered-by > span{
+	background: #55ACEE;
+	padding: 3px 10px;
+	border: 2px solid rgba(0, 0, 0, 0.1);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.icompare-banner-container .icompare-banner{
+	width: 46%;
+	display: inline-block;
+
+}
+.icompare-banner-container .icompare-banner.ebay{
+	vertical-align: top;
+	margin-right: 10px;
+}
+.icompare-banner-container .icompare-banner .product-img > img {
+    height: 100px;
+    max-width: 100%;
+}
+.icompare-banner-row{
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	background: #55ACEE;
+	width: 728.45px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.icompare-banner-row .product-name p{
+	line-height: 15px;
+	font-size: 11px;
+	margin: 10px auto 0px;
+	width: 84%;
+}
+.icompare-banner-row h4{
+	background: #55ACEE;
+	padding: 5px 0;
+	margin-top: 0;
+}
+.icompare-banner-row .ebay .product-info{
+	margin-left: -22px;
+	background: #fff;
+}
+.icompare-banner-row .amazon .product-info{
+	margin-right: -22px;
+	background: #fff;
+}
+.icompare-banner-row .product-name {
+    height: 40px;
+    overflow: hidden;
+}
+.icompare-banner .product-link{
+	background: #282828;
+	color: #fff;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.icompare-banner{
+	position: relative;
+}
+.icompare-banner-row .best-price{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.icompare-banner-row .best-price img{
+	border: none;
+	box-shadow: none;
+}
+#icompare-products .product-table-column{
+	display: inline;
+}
+.product-container > .product-info > img{
+	border: none;
+	margin: 0px auto;
+	box-shadow: none;
+	display: block;
+	padding-top: 15px;
+}
+.product-table-column{
+	display: inline;
+}
+@media(max-width: 414px){
+	.icompare-banner-row{
+		width: 78%;
+	}
+}
